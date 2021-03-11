@@ -675,6 +675,7 @@ MonoBehaviour:
   mainThrust: 1000
   rotationThrust: 100
   mainEngine: {fileID: 8300000, guid: 4d07ff9dfbcc20446a2e5cb5d60ff46a, type: 3}
+  sideEngine: {fileID: 0}
   mainBoosterParticles1: {fileID: 6367907896421695107}
   mainBoosterParticles2: {fileID: 1228719964254275561}
   leftThrusterParticles: {fileID: 7782911403888187304}
@@ -1694,8 +1695,6 @@ GameObject:
   - component: {fileID: 1030842752600562886}
   - component: {fileID: 6770541480762823891}
   - component: {fileID: 2668439446665967362}
-  - component: {fileID: 5892075407033211569}
-  - component: {fileID: 3655550691965810216}
   - component: {fileID: 8279599527589299480}
   m_Layer: 0
   m_Name: Fuselage
@@ -1767,42 +1766,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5892075407033211569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2922175227169398632}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d33b3aaab5ad7d44b8586615f9125902, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainThrust: 1000
-  rotationThrust: 100
-  mainEngine: {fileID: 8300000, guid: 4d07ff9dfbcc20446a2e5cb5d60ff46a, type: 3}
-  mainBoosterParticles1: {fileID: 0}
-  mainBoosterParticles2: {fileID: 0}
-  leftThrusterParticles: {fileID: 0}
-  rightThrusterParticles: {fileID: 0}
---- !u!114 &3655550691965810216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2922175227169398632}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 166a731412239cc4c858e7ea04867f91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelLoadDelay: 2
-  crash: {fileID: 0}
-  success: {fileID: 0}
-  crashParticles: {fileID: 0}
-  successParticles: {fileID: 0}
 --- !u!82 &8279599527589299480
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4654,13 +4617,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab79a37535b979f48b6de56e3a0a5cb0, type: 3}
---- !u!4 &8787508054441600218 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4436899185823514, guid: ab79a37535b979f48b6de56e3a0a5cb0, type: 3}
-  m_PrefabInstance: {fileID: 8789974594233576384}
-  m_PrefabAsset: {fileID: 0}
 --- !u!198 &8880088533361108224 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 198204746014789312, guid: ab79a37535b979f48b6de56e3a0a5cb0, type: 3}
+  m_PrefabInstance: {fileID: 8789974594233576384}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8787508054441600218 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4436899185823514, guid: ab79a37535b979f48b6de56e3a0a5cb0, type: 3}
   m_PrefabInstance: {fileID: 8789974594233576384}
   m_PrefabAsset: {fileID: 0}
