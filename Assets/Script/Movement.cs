@@ -27,7 +27,6 @@ public class Movement : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         ProcessThrust();
@@ -43,10 +42,19 @@ public class Movement : MonoBehaviour
             {
                 audioSource.PlayOneShot(mainEngine);
             }
+            if (!mainBoosterParticles1.isPlaying)
+            {
+                mainBoosterParticles1.Play();
+            }
+            if (!mainBoosterParticles2.isPlaying)
+            {
+                mainBoosterParticles2.Play();
+            }
         }
         else
         {
-            audioSource.Stop();
+            mainBoosterParticles1.Stop();
+            mainBoosterParticles2.Stop();
         }
     }
 
@@ -55,10 +63,26 @@ public class Movement : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {
             ApplyRotation(rotationThrust);
+            if (!rightThrusterParticles.isPlaying)
+            { 
+                rightThrusterParticles.Play(); 
+            }
         }
+
+        
+
         else if (Input.GetKey(KeyCode.D))
         {
             ApplyRotation(-rotationThrust);
+            if (!leftThrusterParticles.isPlaying)
+            {
+                leftThrusterParticles.Play();
+            }
+        }
+        else
+        {
+            rightThrusterParticles.Stop();
+            leftThrusterParticles.Stop();
         }
     }
 
