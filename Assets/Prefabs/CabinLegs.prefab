@@ -1157,6 +1157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WarningLightRed (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3334260942049866362, guid: fea63076c14e6364196905ba1ec155cb, type: 3}
+      propertyPath: m_Range
+      value: 2.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fea63076c14e6364196905ba1ec155cb, type: 3}
 --- !u!4 &1288465766225157797 stripped
@@ -1230,6 +1234,10 @@ PrefabInstance:
     - target: {fileID: 2404979517284881894, guid: fea63076c14e6364196905ba1ec155cb, type: 3}
       propertyPath: m_Name
       value: WarningLightRed
+      objectReference: {fileID: 0}
+    - target: {fileID: 3334260942049866362, guid: fea63076c14e6364196905ba1ec155cb, type: 3}
+      propertyPath: m_Range
+      value: 2.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fea63076c14e6364196905ba1ec155cb, type: 3}
