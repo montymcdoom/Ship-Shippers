@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1456930606036834118}
   - component: {fileID: 3334260942049866362}
+  - component: {fileID: 4713558232064812981}
   m_Layer: 0
   m_Name: WarningLightLightsource
   m_TagString: Untagged
@@ -93,6 +94,25 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!95 &4713558232064812981
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211375920368435395}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6cef1bdbf72e6e444a7f1585452b7b6d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2404979517284881894
 GameObject:
   m_ObjectHideFlags: 0
