@@ -9,12 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 1 - Over.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Level 5 - Moving Target.unity
-    guid: c1c7a461c3d06654e87b911e53903557
+    path: Assets/Scenes/Level 2 - Under.unity
+    guid: 630640d0f8942da4a83034f54ff93cc7
   - enabled: 1
     path: Assets/Scenes/Level 3 - Around.unity
     guid: c1aa5de9f8e0b4148aa74a8880238c94
   - enabled: 1
     path: Assets/Scenes/Level 4 - Doors.unity
     guid: 1085e22f06fcea44bb6fcdbae219a9fb
+  - enabled: 1
+    path: Assets/Scenes/Level 5 - Moving Target.unity
+    guid: c1c7a461c3d06654e87b911e53903557
   m_configObjects: {}

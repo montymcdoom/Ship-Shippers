@@ -473,7 +473,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5089714952548913335, guid: 74647d8dd7a2dc445a24e7a07a355df4, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5089714952548913335, guid: 74647d8dd7a2dc445a24e7a07a355df4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -878,7 +878,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8626539247776530280, guid: 923815b926dd51d45a39ad5cc7ee0923, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8626539247776530280, guid: 923815b926dd51d45a39ad5cc7ee0923, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1051,7 +1051,7 @@ PrefabInstance:
     - target: {fileID: 584718732282965951, guid: 604c76a4677658741828a24a9e768224, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 92eefd15bfad8fc488f03c6ae97d654c, type: 2}
+      objectReference: {fileID: 2100000, guid: 3dd0bb00999cd4044baa926505bbdf9f, type: 2}
     - target: {fileID: 4002311099125614618, guid: 604c76a4677658741828a24a9e768224, type: 3}
       propertyPath: m_Name
       value: Cabin (1)
@@ -1059,7 +1059,7 @@ PrefabInstance:
     - target: {fileID: 4775518096620105855, guid: 604c76a4677658741828a24a9e768224, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 92eefd15bfad8fc488f03c6ae97d654c, type: 2}
+      objectReference: {fileID: 2100000, guid: 3dd0bb00999cd4044baa926505bbdf9f, type: 2}
     - target: {fileID: 5412389070626547942, guid: 604c76a4677658741828a24a9e768224, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1173,7 +1173,7 @@ PrefabInstance:
     - target: {fileID: 8773196783902112810, guid: 530d5296f5b1c9342b2a57494f131cf0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 92eefd15bfad8fc488f03c6ae97d654c, type: 2}
+      objectReference: {fileID: 2100000, guid: 3dd0bb00999cd4044baa926505bbdf9f, type: 2}
     - target: {fileID: 8773196784419160737, guid: 530d5296f5b1c9342b2a57494f131cf0, type: 3}
       propertyPath: m_Name
       value: Cabin
@@ -1225,6 +1225,6 @@ PrefabInstance:
     - target: {fileID: 8773196784497960584, guid: 530d5296f5b1c9342b2a57494f131cf0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 92eefd15bfad8fc488f03c6ae97d654c, type: 2}
+      objectReference: {fileID: 2100000, guid: 3dd0bb00999cd4044baa926505bbdf9f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 530d5296f5b1c9342b2a57494f131cf0, type: 3}
